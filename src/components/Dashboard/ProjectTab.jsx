@@ -1,6 +1,4 @@
 import React from 'react'
-import _ from 'lodash'
-import { AddWidget } from '../Widgets/AddWidget/AddWidget'
 import { ProjectDashboard } from './ProjectDashboard'
 
 const ProjectTab = ({ project, editCards }) => {
@@ -15,15 +13,9 @@ const ProjectTab = ({ project, editCards }) => {
       }}
     >
       <ProjectDashboard
-        // dashboard={dashboard}
-        // updateDashboardGrid={this.updateDashboardGrid}
         project={project}
         editCards={editCards}
       />
-      {/* <AddWidget
-        goWorkflow={this.redirectToProjectWorkflow}
-        goScene={this.redirectToProjectScene}
-      /> */}
     </div>
   )
 }
